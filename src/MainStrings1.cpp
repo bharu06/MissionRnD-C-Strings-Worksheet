@@ -16,7 +16,7 @@ Objectives of Strings-1 Lesson:
 #include "FunctionHeadersStrings1.h"
 
 int main(){
-
+	int len=21;
 	//Test KthIndexFromEnd 
 
 	//TestNumbertoStr
@@ -27,6 +27,10 @@ int main(){
 
 	//commonWords
 
-
+	
+	float number = -34.456;
+	char str[20];
+	number_to_str(number, str, 3);
+	printf("%s", str);
 	return 0;
 }
